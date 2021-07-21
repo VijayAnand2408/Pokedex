@@ -62,7 +62,7 @@ async function createPokemonCard(pokemon,pokemon1) {
 
 	pokemonEl.innerHTML = pokeInnerHTML;
 
-	await poke_container.appendChild(pokemonEl);
+        poke_container.appendChild(pokemonEl);
 }
 
 fetchPokemons();
