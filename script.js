@@ -60,7 +60,7 @@ async function createPokemonCard(pokemon,pokemon1) {
         </div>
     `;
 
-	pokemonEl.innerHTML = pokeInnerHTML;
+	await pokemonEl.innerHTML = pokeInnerHTML;
 
         poke_container.appendChild(pokemonEl);
 }
